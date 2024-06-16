@@ -1,7 +1,10 @@
 import requests
 import os
+from dotenv import load_dotenv
 
-token = os.environ.get('TOKEN')
+load_dotenv()
+
+token =  os.environ.get('TOKEN')
 
 # Make a request to the protected view with the token
 headers = {'Authorization': f'Token {token}'}
