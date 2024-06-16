@@ -25,3 +25,8 @@ Create and add credentials
   PASSWORD = ''
   TOKEN = ''
   ```
+
+**Get Token**
+```
+python3 get-token.py
+```
